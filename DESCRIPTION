@@ -1,0 +1,24 @@
+Package: MixOneTwoSided
+Type: Package
+Title: Likelihood Ratio and Bootstrap-Based Tests for Mixture of One-sided and Two-Sided Alternatives
+Version: 0.1.0
+Authors@R: person("Anonymous", "Author",
+    email = "ssbh4567@gmail.com",
+    role = c("aut", "cre"))
+Description: Provides likelihood ratio and bootstrap-based test procedures 
+             for evaluating the equality of group means against a mixture 
+             of one-sided and two-sided alternative hypotheses in a one-way
+             ANOVA model with unequal variances. The package implements three
+             functions that perform hypothesis testing of 'H0 μ0 = μi for
+             all i' against 'H1 μ0 ≤ μs (s = 1, ..., r) or μ0 ≠ μt (t = r + 1, ..., k)',
+             where at least one strict inequality holds. Critical values and p-values 
+             are estimated using a parametric bootstrap approach. This package is 
+             particularly useful for biomedical and pharmaceutical studies where 
+             treatment effects may involve both superiority (one-sided) and difference
+             (two-sided) comparisons.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Iso, stats
+RoxygenNote: 7.3.3
+BuildVignettes: false
